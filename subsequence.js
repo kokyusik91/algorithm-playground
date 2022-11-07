@@ -1,16 +1,16 @@
-// function isSubsequence(str1, str2) {
-//   let i = 0;
-//   let j = 0;
-//   if (!str1) return true;
+function isSubsequence(str1, str2) {
+  let i = 0;
+  let j = 0;
+  if (!str1) return true;
 
-//   while (j < str2.length) {
-//     if (str2[j] === str1[i]) i++;
-//     if (i === str1.legnth) return true;
-//     j++;
-//   }
+  while (j < str2.length) {
+    if (str2[j] === str1[i]) i++;
+    if (i === str1.legnth) return true;
+    j++;
+  }
 
-//   return false;
-// }
+  return false;
+}
 
 function isSubsequence(str1, str2) {
   var i = 0;

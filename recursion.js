@@ -10,11 +10,11 @@
 // // factorial(6);
 // // return 6 * 5 * 4 * 3 * 2 * 1;
 
-// function power(num1, num2) {
-//   if (num2 === 0) return 1;
+function power(num1, num2) {
+  if (num2 === 0) return 1;
 
-//   return num1 * power(num1, num2 - 1);
-// }
+  return num1 * power(num1, num2 - 1);
+}
 
 // power(2, 4);
 //     return 2 * power(2, 3);
