@@ -27,6 +27,8 @@ function advancedHash(text, arrayLength) {
 const value = hash('pink', 10);
 const advancedValue = advancedHash('pink', 11);
 
+// ['key', 'value'] 로 저장할 예정
+
 class HashTable {
   constructor(size = 4) {
     this.keyMap = new Array(size);
