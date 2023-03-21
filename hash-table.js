@@ -55,7 +55,11 @@ class HashTable {
 
     return undefined;
   }
-
+  /**
+   *
+   * @param {*} text 저장할 key string
+   * @returns
+   */
   _hash(text) {
     let total = 0;
     let WEIRD_PRIME = 31;
@@ -75,4 +79,4 @@ hashTable.set('hello', 'nigro');
 hashTable.set('hell', 'goto');
 hashTable.set('mr', 'spiderman');
 
-console.log('맵!', hashTable.keyMap);
+console.log(hashTable.get('hello'));
