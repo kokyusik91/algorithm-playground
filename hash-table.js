@@ -79,4 +79,6 @@ hashTable.set('hello', 'nigro');
 hashTable.set('hell', 'goto');
 hashTable.set('mr', 'spiderman');
 
-console.log(hashTable.get('hello'));
+console.log(hashTable);
+
+console.log(hashTable.get('hell'));
