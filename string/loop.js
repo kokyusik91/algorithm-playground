@@ -3,10 +3,8 @@ const solution = (string, n) => {
   const array = string.split('');
   for (let i = 0; i < array.length; i++) {
     let middle = '';
-    for (let j = 0; j < n; j++) {
-      console.log(j);
-      middle += array[i];
-    }
+    middle = array[i].repeat(n);
+    // 문자열 붙이는것
     answer += middle;
   }
 
@@ -14,5 +12,9 @@ const solution = (string, n) => {
 };
 
 // ABC
-
 console.log(solution('ABC', 3));
+
+const newArray = new Array(5).fill(-1);
+console.log('newArray', newArray);
+
+// console.log('고규식'.repeat(5));
