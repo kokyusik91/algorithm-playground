@@ -24,3 +24,7 @@ console.log(
     ],
   ),
 );
+
+const ko = require('./test');
+
+console.log(ko);

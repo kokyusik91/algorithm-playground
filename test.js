@@ -7,3 +7,5 @@ let prices = {
 const mola = Object.entries(prices);
 const newArray = mola.map(([key, value]) => value);
 console.log(newArray);
+
+module.exports = 'kyusikko';
